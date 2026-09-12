@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PharmaGrid: Pakistan Drug Reference</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="splash">
+  <div class="s-mark"><svg viewBox="0 0 24 24" width="40" height="40" aria-hidden="true"><defs><linearGradient id="logoGradSplash" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#502D55"/><stop offset="55%" stop-color="#935073"/><stop offset="100%" stop-color="#F6DBC0"/></linearGradient></defs><rect x="1.5" y="1.5" width="21" height="21" rx="6.5" fill="url(#logoGradSplash)"/><rect x="10.6" y="6" width="2.8" height="12" rx="1.2" fill="#fff"/><rect x="6" y="10.6" width="12" height="2.8" rx="1.2" fill="#fff"/></svg></div>
+  <div class="s-welcome">Welcome to</div>
+  <div class="s-word">PharmaGrid</div>
+  <div class="s-sub">Your pharmacy knowledge, organized.</div>
+</div>
+
+<div id="homepage">
+  <header id="home-header">
+    <div class="home-header-inner">
+      <div class="home-brand">
+        <span class="home-mark"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><defs><linearGradient id="logoGradHeader" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#502D55"/><stop offset="55%" stop-color="#935073"/><stop offset="100%" stop-color="#F6DBC0"/></linearGradient></defs><rect x="1.5" y="1.5" width="21" height="21" rx="6.5" fill="url(#logoGradHeader)"/><rect x="10.6" y="6" width="2.8" height="12" rx="1.2" fill="#fff"/><rect x="6" y="10.6" width="12" height="2.8" rx="1.2" fill="#fff"/></svg></span>
+        <span class="home-name">PharmaGrid</span>
+      </div>
+      <nav class="home-nav">
+        <a href="#home-tools">Tools</a>
+        <a href="#home-reference">Reference</a>
+        <a href="#home-about">About</a>
+        <a href="#home-contact">Contact</a>
+      </nav>
+      <button class="home-cta-small" id="home-enter-btn-header">Open App</button>
+      <button class="home-hamburger" id="home-hamburger-btn" aria-label="Menu">&#9776;</button>
+    </div>
+    <div class="home-mobile-nav" id="home-mobile-nav">
+      <a href="#home-tools">Tools</a>
+      <a href="#home-reference">Reference</a>
+      <a href="#home-about">About</a>
+      <a href="#home-contact">Contact</a>
+      <button class="home-cta-small" id="home-enter-btn-mobile">Open App</button>
+    </div>
+  </header>
+
+  <section class="home-hero">
+    <div class="home-hero-inner">
+      <div class="home-eyebrow">Free · Educational · Pakistan drug reference</div>
+      <h1>Pharmacy knowledge,<br>organized into one place.</h1>
+      <p class="home-hero-sub">
+        PharmaGrid maps every organ system, drug class, and subclass into an
+        explorable graph, backs it with 2,575 generics and 45,084 brand
+        entries, and pairs it with a full quick-reference library:
+        terminology, lab values, dose formulas, interactions, and more.
+      </p>
+      <div class="home-hero-ctas">
+        <button class="home-btn-primary" id="home-enter-btn-hero">Open PharmaGrid →</button>
+        <a class="home-btn-secondary" href="#home-tools">See what's inside</a>
+      </div>
+      <div class="home-stat-row">
+        <div class="home-stat"><strong>2,575</strong><span>generics</span></div>
+        <div class="home-stat"><strong>45,084</strong><span>brand entries</span></div>
+        <div class="home-stat"><strong>163</strong><span>drug classes</span></div>
+        <div class="home-stat"><strong>11</strong><span>reference guides</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-tools" id="home-tools">
+    <div class="home-section-inner">
+      <div class="home-section-head">
+        <div class="home-eyebrow">The toolkit</div>
+        <h2>Five ways to explore the vault</h2>
+        <p>Open any of these directly. No setup, nothing to install.</p>
+      </div>
+      <div class="home-tool-grid">
+
+        <div class="home-tool-card">
+          <div class="home-tool-icon home-tool-icon-graph"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><circle cx="12" cy="12.5" r="2"/>
+      <line x1="12" y1="7" x2="12" y2="10.3"/><line x1="10.4" y1="13.7" x2="6.6" y2="17.4"/><line x1="13.6" y1="13.7" x2="17.4" y2="17.4"/>
+    </svg></div>
+          <h3>Graph View</h3>
+          <p>A fixed, color-coded map of every organ system and drug class, branching out into their subclasses. Zero crossing lines, pan and zoom freely.</p>
+          <button class="home-tool-open" data-view="graph">Open Graph →</button>
+        </div>
+
+        <div class="home-tool-card">
+          <div class="home-tool-icon home-tool-icon-mindmap"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="2.3"/><circle cx="12" cy="3.3" r="1.5"/><circle cx="20.7" cy="12" r="1.5"/><circle cx="12" cy="20.7" r="1.5"/><circle cx="3.3" cy="12" r="1.5"/>
+      <line x1="12" y1="9.7" x2="12" y2="4.8"/><line x1="14.3" y1="12" x2="19.2" y2="12"/><line x1="12" y1="14.3" x2="12" y2="19.2"/><line x1="9.7" y1="12" x2="4.8" y2="12"/>
+    </svg></div>
+          <h3>Mind Map</h3>
+          <p>The same category structure as one clean radial tree, showing just the major classes for a simpler read than the full graph.</p>
+          <button class="home-tool-open" data-view="mindmap">Open Mind Map →</button>
+        </div>
+
+        <div class="home-tool-card">
+          <div class="home-tool-icon home-tool-icon-browse"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="4.5" cy="6" r="1.1" fill="#fff" stroke="none"/><line x1="8.5" y1="6" x2="20" y2="6"/>
+      <circle cx="4.5" cy="12" r="1.1" fill="#fff" stroke="none"/><line x1="8.5" y1="12" x2="20" y2="12"/>
+      <circle cx="4.5" cy="18" r="1.1" fill="#fff" stroke="none"/><line x1="8.5" y1="18" x2="20" y2="18"/>
+    </svg></div>
+          <h3>Browse</h3>
+          <p>A searchable text tree for anyone who'd rather drill down folder-by-folder than click around a graph.</p>
+          <button class="home-tool-open" data-view="browse">Open Browse →</button>
+        </div>
+
+        <div class="home-tool-card">
+          <div class="home-tool-icon home-tool-icon-reference"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 4.5A2 2 0 0 1 7 2.5H19v17H7A2 2 0 0 0 5 21.5V4.5Z"/>
+      <line x1="5" y1="19" x2="5" y2="4.5"/><line x1="8.5" y1="7" x2="15.5" y2="7"/><line x1="8.5" y1="11" x2="15.5" y2="11"/>
+    </svg></div>
+          <h3>Reference Hub</h3>
+          <p>11 quick-reference tabs: medical terminology, lab values, dose calculation formulas, drug interactions, pregnancy &amp; lactation, and more.</p>
+          <button class="home-tool-open" data-view="reference">Open Reference →</button>
+        </div>
+
+        <div class="home-tool-card">
+          <div class="home-tool-icon home-tool-icon-search"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="10.3" cy="10.3" r="6.3"/><line x1="15" y1="15" x2="20.5" y2="20.5"/>
+    </svg></div>
+          <h3>Search</h3>
+          <p>Jump straight to any generic, brand name, or class, from anywhere in the app.</p>
+          <button class="home-tool-open" data-view="search">Try Search →</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="home-reference-strip" id="home-reference">
+    <div class="home-section-inner">
+      <div class="home-section-head">
+        <div class="home-eyebrow">Inside the Reference Hub</div>
+        <h2>11 guides, one tab bar</h2>
+      </div>
+      <div class="home-chip-row">
+        <span>Medical Terminology</span>
+        <span>Lab Reference Values</span>
+        <span>Dose Calculation Formulas</span>
+        <span>Drug Interactions</span>
+        <span>Pregnancy &amp; Lactation</span>
+        <span>High-Alert Medications</span>
+        <span>Common Antidotes</span>
+        <span>Renal &amp; Hepatic Adjustment</span>
+        <span>Drug Suffixes / Stems</span>
+        <span>Drug-Induced Conditions</span>
+        <span>Therapeutic Drug Monitoring</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-about" id="home-about">
+    <div class="home-section-inner home-about-inner">
+      <div class="home-eyebrow">About</div>
+      <h2>Why PharmaGrid exists</h2>
+      <p>Hi, I'm Muhammad Zain Munawar, a Doctor of Pharmacy student with an interest in pharmacy, pharmaceutical sciences, healthcare technology, and the ways digital tools can make learning and working with medicines easier.</p>
+      <p>I started PharmaGrid from a simple idea: pharmaceutical knowledge shouldn't feel unnecessarily difficult to find, understand, or use. As a pharmacy student, I've experienced firsthand how much information pharmacists and students have to deal with, from pharmacology and pharmaceutics to drug information, calculations, prescriptions, compatibility, and clinical concepts.</p>
+      <p>PharmaGrid isn't intended to replace textbooks, official references, clinical guidelines, or healthcare professionals. It's a practical digital companion meant to help you learn, explore, and organize pharmaceutical information more efficiently, and it's a work in progress I'm continuously building on.</p>
+      <a class="home-btn-secondary" href="#" data-info="about">Read the full page →</a>
+    </div>
+  </section>
+
+  <footer class="home-footer" id="home-contact">
+    <div class="home-section-inner home-footer-inner">
+      <div class="home-footer-brand">
+        <span class="home-mark"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><defs><linearGradient id="logoGradFooter" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#502D55"/><stop offset="55%" stop-color="#935073"/><stop offset="100%" stop-color="#F6DBC0"/></linearGradient></defs><rect x="1.5" y="1.5" width="21" height="21" rx="6.5" fill="url(#logoGradFooter)"/><rect x="10.6" y="6" width="2.8" height="12" rx="1.2" fill="#fff"/><rect x="6" y="10.6" width="12" height="2.8" rx="1.2" fill="#fff"/></svg></span>
+        <span class="home-name">PharmaGrid</span>
+        <p>A free pharmaceutical reference and drug-class explorer.<br>Built by a pharmacy student, for pharmacy students.</p>
+      </div>
+      <div class="home-footer-links">
+        <a href="#" data-info="about">About Me</a>
+        <a href="#" data-info="contact">Contact Us</a>
+        <a href="#" data-info="disclaimer">Disclaimer</a>
+        <a href="#" data-info="dmca">DMCA</a>
+      </div>
+    </div>
+    <div class="home-footer-bottom">Made by Muhammad Zain Munawar ©2026</div>
+  </footer>
+</div>
+
+<div id="app">
+  <header style="position:relative;">
+    <div class="brand">
+      <span class="mark"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><defs><linearGradient id="logoGradApp" x1="0" y1="0" x2="24" y2="24"><stop offset="0%" stop-color="#502D55"/><stop offset="55%" stop-color="#935073"/><stop offset="100%" stop-color="#F6DBC0"/></linearGradient></defs><rect x="1.5" y="1.5" width="21" height="21" rx="6.5" fill="url(#logoGradApp)"/><rect x="10.6" y="6" width="2.8" height="12" rx="1.2" fill="#fff"/><rect x="6" y="10.6" width="12" height="2.8" rx="1.2" fill="#fff"/></svg></span>
+      <h1>PharmaGrid</h1>
+      <span class="sub">Pakistan drug reference</span>
+    </div>
+
+    <nav class="nav-inline">
+      <a href="#" data-info="about">About Me</a>
+      <a href="#" data-info="contact">Contact Us</a>
+      <a href="#" data-info="disclaimer">Disclaimer</a>
+      <a href="#" data-info="dmca">DMCA</a>
+    </nav>
+
+    <button id="hamburger-btn" class="hamburger-btn" title="Menu" aria-label="Menu">&#9776;</button>
+    <div id="mobile-nav-dropdown" class="mobile-nav-dropdown">
+      <a href="#" data-info="about">About Me</a>
+      <a href="#" data-info="contact">Contact Us</a>
+      <a href="#" data-info="disclaimer">Disclaimer</a>
+      <a href="#" data-info="dmca">DMCA</a>
+    </div>
+
+    <div class="view-toggle">
+      <button id="view-graph-btn" class="active">Graph</button>
+      <button id="view-mindmap-btn">Mind Map</button>
+      <button id="view-reference-btn">Reference</button>
+    </div>
+
+    <button id="sidebar-toggle" class="hbtn" title="Browse classes as a text tree, the non-graph view">
+      <span>&#8942;</span>&nbsp;Browse
+    </button>
+
+    <div class="spacer"></div>
+
+    <button id="legend-toggle" class="hbtn">Color Coding</button>
+    <button id="interaction-btn" class="hbtn" disabled title="Reserved for a future drug interaction / compatibility module">
+      <span class="dot"></span><span class="label">Interaction Checker: coming soon</span>
+    </button>
+    <span id="stat-pill" class="stat-pill"></span>
+  </header>
+
+  <div id="search-bar-row">
+    <div class="search-wrap">
+      <input id="search" type="text" placeholder="Search a generic, brand, or class…" autocomplete="off">
+      <div id="search-results"></div>
+    </div>
+  </div>
+
+  <div class="workspace">
+    <aside id="sidebar">
+      <div id="sidebar-inner">
+        <div id="sidebar-head">
+          <h3>Vault outline</h3>
+          <button id="sidebar-close">✕</button>
+        </div>
+        <div id="sidebar-tree"></div>
+      </div>
+    </aside>
+
+    <main>
+      <canvas id="graph"></canvas>
+      <div id="mindmap-wrap">
+        <svg id="mindmap-svg"></svg>
+      </div>
+      <div id="reference-wrap">
+        <div id="reference-inner">
+          <div id="reference-disclaimer">
+            Reference compiled for personal study use. This section performs no calculations, accepts no patient input, and stores no data. It is text only. Always verify against current official prescribing information, your institution's protocol, or a qualified healthcare professional before applying anything clinically.
+          </div>
+          <input id="reference-search" type="text" placeholder="Filter this tab…">
+          <div class="tabs" id="reference-tabs"></div>
+          <div id="reference-panels"></div>
+        </div>
+      </div>
+      <div id="legend" class="collapsed">
+        <div id="legend-swatches"></div>
+      </div>
+      <div id="hint">Scroll / pinch to zoom · drag empty space to pan · click a node to open it</div>
+      <div id="tooltip"></div>
+    </main>
+  </div>
+
+  <div id="panel">
+    <div id="panel-accent"></div>
+    <button id="panel-close">✕</button>
+    <div id="panel-head">
+      <div class="p-kicker" id="panel-kicker"></div>
+      <h2 id="panel-title"></h2>
+      <div class="p-sub" id="panel-sub"></div>
+    </div>
+    <div class="child-chip-row" id="panel-chips"></div>
+    <input id="panel-search" type="text" placeholder="Filter…">
+    <div id="panel-body"></div>
+  </div>
+
+  <div id="watermark">Made by Muhammad Zain Munawar ©2026</div>
+</div>
+
+<div id="info-modal">
+  <div id="info-modal-head">
+    <h2 id="info-modal-title">About Me</h2>
+    <button id="info-modal-close">✕</button>
+  </div>
+  <div id="info-modal-body"></div>
+</div>
+
+<script src="d3.min.js"></script>
+<script src="vault_data.js"></script>
+<script src="reference_data.js"></script>
+<script src="app.js"></script>
+<script src="about_contact.js"></script>
+<script src="reference.js"></script>
+<script src="homepage.js"></script>
+</body>
+</html>
